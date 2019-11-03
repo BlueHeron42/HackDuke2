@@ -1,0 +1,48 @@
+#messages li{
+    list-style-type: none;
+}
+
+body
+{
+    font-family: sans-serif;
+    color: #3c3939;
+    background-color: white;
+}
+
+.profile-card
+{
+    width: 400px;
+    margin:auto;
+    background: #ecb807;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.5);
+    position: relative;
+}
+
+.title
+{
+    position: absolute;
+    left: 15px;
+    bottom:0;
+
+}
+.title h2 {
+    color: white;
+}
+
+.image-container
+{
+    position: relative;
+
+}
+
+.main-container
+{
+    position: absolute;
+    right: 50px;
+}
+
+.info
+{
+    color: #4b4fe2;
+    margin-right: 16px;
+}
